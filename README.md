@@ -3,8 +3,11 @@ A very useful and informative workshop, where i have gained hands on experience 
 
 
 **DAY 1** 
-    Description about Fundamentals of PCB and Chip Design.
-    Fundamentals of Packages, PADS, Core and ICs.
-    Introduction to RISC-V architecture.
-    SoC brief taking an Raven chip model with internal explaination about SRAM, ADCs and other Analog IPs.
+    a)Description about Fundamentals of PCB and Chip Design.
+    
+    b)Fundamentals of Packages, PADS, Core and ICs.
+    
+    c)Introduction to RISC-V architecture.
+    
+    d)SoC brief taking an Raven chip model with internal explaination about SRAM, ADCs and other Analog IPs.
     
