@@ -138,10 +138,15 @@ A very useful and informative workshop, where i have gained hands on experience 
   
         cd ngspice_labs
         magic -T min2.tech fn_postlayout.mag &
+ ![](images/DAY3LAYOUT_AREA_SELECTION.JPG)
         
  ![](images/PRE_AND_POSTLAYOUT_RESPONSE.JPG)
  
  ![](images/PARASITIC_NETLIST.JPG)
+  
+  
+## 4.Timing Analysis
+
   
   
   
