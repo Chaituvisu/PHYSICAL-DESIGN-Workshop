@@ -147,7 +147,40 @@ A very useful and informative workshop, where i have gained hands on experience 
   
 ## 4.Timing Analysis
 
-  
+   Timing analysis is done with ideal clock and real clock. Clock tree synthesis is done using H-tree approach by taking midpoints 
+   to derive clock.
+   Buffers can be introduced if H-tree approach is not provided.
+   Tools are used to analyze provided .lib file and file path is given below:
+   
+            /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+            
+   Timing analysis is done for picorv32 by creating sdc file - picorv32.sdc
+            
+            cd vsdflow/my_picorv32
+            leafpad picorv32.sdc
+            
+   In sdc file by creating a clk in the file :
+            
+            create_clock -name clk -period 2.5 -waveform {0 1.25} [get_ports clk]
+   
+   For prelayout, creating sta config file:
+   
+            leafpad prelayout_sta.conf
+            
+   Giving inputs in the file .conf file and save
+            
+            read_liberty /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+            read_verilog synthesis/picorv32.rtlnopwr.v
+            link_design picorv32
+            read_sdc picorv32.sdc
+            %
+            report_checks
+            
+   Slack can be viewed by using below command in above - %
+   
+            report_checks -digits 6
+            
+   ![](images/SLACK_PATH_MIN_DELAY.png)
   
   
   
