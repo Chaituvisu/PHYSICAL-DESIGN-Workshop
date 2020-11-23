@@ -182,6 +182,39 @@ A very useful and informative workshop, where i have gained hands on experience 
             
    ![](images/SLACK_PATH_MIN_DELAY.png)
   
+
+## 5.ROUTING
+
+      
+   Routing is done using Maze type Lee's algorithm in which grid is routed. This is done from driver to load.
+   DRC violations has to checked and resolved with clean DRC=0.
+   SPEF extraction is done with IEEE industrial standards "IEEE 1481 -1999".
+   Routing process is done by using below commands:
+   
+            cd vsdflow/my_picorv32
+            qflow route picorv32
+            qflow sta picorv32
+            qflow backanno picorv32
+            leafpad log/sta.log
+            
+   ![](images/QROUTE_RUN.png)
+   
+   ![](images/QROUTE.png)
+            
+   Timing analysis is made for prelayout and also postlayout through which the max clock frequency drop is observed.
+   Prelayout frequency comes to 316MHz and postlayout frequency drops to 290MHz.
+   
+   For postlayout sta:
+   
+            log/post_sta.log
+   
+   
+   
+## 6.ACKNOWLEDGEMENT
+
+      
+   My sincere thanks to Kunal Gosh( Co-Founder -VSD Corp. PVT Ltd ) sir in helping to gain very good knowledge on Physical design tools which boosts
+   my career in VLSI domain.
   
   
  
