@@ -60,5 +60,26 @@ A very useful and informative workshop, where i have gained hands on experience 
  and also location of pre placed cells.
         
  These pre placed cells with suitable decoupling capacitors with consideration of noise margin concept.
-  
+ 
+ The decoupling capacitors are of huge value which are placed between Vdd and Vss.
+ 
+ Proper power planning is done in order to avoid IR drop and Ground Bounce.
+ 
+        cd
+        cd vsdflow
+        mkdir my_picorv32
+        cd my_picorv32
+        mkdir source synthesis layout
+        cp ~/vsdflow/verilog/picorv32.v source/.
+        qflow gui &
+        
+        In GUI these below settings are made in order to do synthesis and placement:
+        
+        Technology = osu018
+        Verilog source file : picorv32.v
+        Verilog module : picorv32
+   **GUI**
+ ![](images/DAY1synthesis_statistics_of_picorv32.JPG)
+   **PLACEMENT**
+ ![](images/PLACEMENT_RUN.png)
  
