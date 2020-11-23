@@ -49,5 +49,9 @@ A very useful and informative workshop, where i have gained hands on experience 
   ![](images/DAY1Create _picorv32.JPG)
   ![](images/DAY1synthesis_statistics_of_picorv32.JPG)
   
+**DAY2**
+        Definition of width and height of die, core which depends on standard cell dimensions. Core internally consists of many standard cells placed properly with proper intensity, aspect ratio, utilisation factor and also location of pre placed cells.
+        
+        These pre placed cells with suitable decoupling capacitors with consideration of noise margin concept.
   
  
