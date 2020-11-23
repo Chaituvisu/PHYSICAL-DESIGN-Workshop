@@ -2,7 +2,7 @@
 A very useful and informative workshop, where i have gained hands on experience on physical design tools like opentimer, ngspice , magic and sta. It hepled me to understand the flow of design from RTL file to GDSII on tsmc 180nm technology. From this workshop I learnt about SPEF "IEEE 1481-1999" standard,LEF, DEF, SDC files and their significance in the Design flow. Tools used are NGSPICE, MAGIC LAYOUT tool, YOSYS- logic synthesis, GRAYWOLF- placement, QROUTE- maze routing, OPENSTA- timing analysis and SPEF extractor.
 
 
-## DAY 1 
+## Introduction to RISC-V and SoC
     
    a)Description about Fundamentals of PCB and Chip Design.
     
@@ -54,7 +54,7 @@ A very useful and informative workshop, where i have gained hands on experience 
   
   ![](images/DAY1synthesis_statistics_of_picorv32.JPG)
   
-## DAY2
+## SYNTHESIS AND PLACEMENT
         
    Definition of width and height of die, core which depends on standard cell dimensions. 
    Core internally consists of many standard cells placed properly with proper intensity, aspect ratio, utilisation factor
@@ -91,7 +91,7 @@ A very useful and informative workshop, where i have gained hands on experience 
    **PLACEMENT_RUN**
  ![](images/PLACEMENT_RUN.png)
  
-## DAY 3
+## NGSPICE & MAGIC TOOLS
  
    Mainly focused on the characterisation and design of basic cells using tools like NGSPICE and MAGIC LAYOUT.
    
@@ -116,7 +116,13 @@ A very useful and informative workshop, where i have gained hands on experience 
    
   ![](images/DAY3SVTC.JPG)
   
-   Response of the inverter spice simulation with change in PMOS width:
+   Response of the inverter spice simulation with change in PMOS width hence leads to change in Vt and also rise delay:
    
   ![](images/DAY3SPMOS_WIDTH_CHANGE.JPG)
+  
+  ![](images/DAY3Srise_delay_part1.JPG)
+  
+  
+  
+  
  
