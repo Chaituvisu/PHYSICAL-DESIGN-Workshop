@@ -2,7 +2,7 @@
 A very useful and informative workshop, where i have gained hands on experience on physical design tools like opentimer, ngspice , magic and sta. It hepled me to understand the flow of design from RTL file to GDSII on tsmc 180nm technology. From this workshop I learnt about SPEF "IEEE 1481-1999" standard,LEF, DEF, SDC files and their significance in the Design flow. Tools used are NGSPICE, MAGIC LAYOUT tool, YOSYS- logic synthesis, GRAYWOLF- placement, QROUTE- maze routing, OPENSTA- timing analysis and SPEF extractor.
 
 
-## Introduction to RISC-V and SoC
+## 1.Introduction to RISC-V and SoC
     
    a)Description about Fundamentals of PCB and Chip Design.
     
@@ -54,7 +54,7 @@ A very useful and informative workshop, where i have gained hands on experience 
   
   ![](images/DAY1synthesis_statistics_of_picorv32.JPG)
   
-## SYNTHESIS AND PLACEMENT
+## 2.SYNTHESIS AND PLACEMENT
         
    Definition of width and height of die, core which depends on standard cell dimensions. 
    Core internally consists of many standard cells placed properly with proper intensity, aspect ratio, utilisation factor
@@ -91,7 +91,7 @@ A very useful and informative workshop, where i have gained hands on experience 
    **PLACEMENT_RUN**
  ![](images/PLACEMENT_RUN.png)
  
-## NGSPICE & MAGIC TOOLS
+## 3.NGSPICE & MAGIC TOOLS
  
    Mainly focused on the characterisation and design of basic cells using tools like NGSPICE and MAGIC LAYOUT.
    
@@ -105,10 +105,20 @@ A very useful and informative workshop, where i have gained hands on experience 
    n-diffuse, p-diffuse, n-subcontact, p-subcontact, polysilicon etc.
       
    Inverter characterisation is using the ngspice file using below commands. By resizing the PMOS the characteristics are observed
+   
+            cd 
+            git clone https://github.com/kunalg123/ngspice_labs.git
+            cd ngspice_labs
+            cat inv_spice
+            ngspice inv.spice
+            ngspice 1-> run
       
    Inverter Transient response:
    
   ![](images/ngspice_inv_tran.png)
+  
+            ngspice inv_tran.spice
+            ngspice 1-> run
   
   ![](images/ngspice_inv.png)
  
@@ -121,6 +131,17 @@ A very useful and informative workshop, where i have gained hands on experience 
   ![](images/DAY3SPMOS_WIDTH_CHANGE.JPG)
   
   ![](images/DAY3Srise_delay_part1.JPG)
+  
+  An combinational circuit's boolean expression is taken as example for layout. Behavioural response is taken from the spice netlist of prelayout
+  and after layout is done, parasitic capacitance is extracted from layout, converted to spice netlist
+  and postlayout response is taken by using below commands:
+  
+        cd ngspice_labs
+        magic -T min2.tech fn_postlayout.mag &
+        
+ ![](images/PRE_AND_POSTLAYOUT_RESPONSE.JPG)
+ 
+ ![](images/PARASITIC_NETLIST.JPG)
   
   
   
