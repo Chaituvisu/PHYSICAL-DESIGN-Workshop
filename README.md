@@ -91,7 +91,7 @@ A very useful and informative workshop, where i have gained hands on experience 
    **PLACEMENT_RUN**
  ![](images/PLACEMENT_RUN.png)
  
- ## DAY 3
+## DAY 3
  
    Mainly focused on the characterisation and design of basic cells using tools like NGSPICE and MAGIC LAYOUT.
    
@@ -112,4 +112,11 @@ A very useful and informative workshop, where i have gained hands on experience 
   
   ![](images/ngspice_inv.png)
  
+   Response of the inverter spice simulation:
+   
+  ![](images/DAY3SVTC.JPG)
+  
+   Response of the inverter spice simulation with change in PMOS width:
+   
+  ![](images/DAY3SPMOS_WIDTH_CHANGE.JPG)
  
