@@ -45,4 +45,9 @@ A very useful and informative workshop, where i have gained hands on experience 
   
   ![](images/DAY1layout_spi.JPG)
   
+    h) In order to do synthesis for picorv32 few commands are entered in the terminal which results in the displaying the number of gates, DFFs and other std_cells
+  ![](images/DAY1Create _picorv32.JPG)
+  ![](images/DAY1synthesis_statistics_of_picorv32.JPG)
+  
+  
  
