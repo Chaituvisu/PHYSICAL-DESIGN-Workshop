@@ -37,20 +37,24 @@ A very useful and informative workshop, where i have gained hands on experience 
         
        output files will be generated in below folder:
              
-             cd outdir_spi_slave
+             _cd outdir_spi_slave_
          
-         For viewing the layout of spi_slave below command is entered in terminal
+       For viewing the layout of spi_slave below command is entered in terminal
              
-             qflow display spi_slave
+             _qflow display spi_slave_
   
   ![](images/DAY1layout_spi.JPG)
+  
   
     h) In order to do synthesis for picorv32 few commands are entered in the terminal which results in the displaying the number of gates, DFFs and other std_cells
   ![](images/DAY1Create _picorv32.JPG)
   ![](images/DAY1synthesis_statistics_of_picorv32.JPG)
   
 **DAY2**
-        Definition of width and height of die, core which depends on standard cell dimensions. Core internally consists of many standard cells placed properly with proper intensity, aspect ratio, utilisation factor and also location of pre placed cells.
+        
+        Definition of width and height of die, core which depends on standard cell dimensions. 
+        Core internally consists of many standard cells placed properly with proper intensity, aspect ratio, utilisation factor
+        and also location of pre placed cells.
         
         These pre placed cells with suitable decoupling capacitors with consideration of noise margin concept.
   
