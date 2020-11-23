@@ -12,5 +12,11 @@ A very useful and informative workshop, where i have gained hands on experience 
     
     d)SoC brief taking an Raven chip model with internal explaination about SRAM, ADCs and other Analog IPs.
     
-    e) Introduction on design flow and tools on which the design has to be implemented with a goal of processing RTL to GDSII. Tools like **YOSYS- Logic synthesis** ,    **GREYWOLF- Placement** , **QROUTER- routing** , **OPEN_TIMER- Static timing analysis**
+    e) Introduction on design flow and tools on which the design has to be implemented with a goal of processing RTL to GDSII. Tools like 
+    
+        *YOSYS- Logic synthesis*
+        **GREYWOLF- Placement** 
+        **QROUTER- routing** 
+        **OPEN_TIMER- Static timing analysis**
+        **MAGIC - layout viewer**
     
