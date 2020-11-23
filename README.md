@@ -78,8 +78,15 @@ A very useful and informative workshop, where i have gained hands on experience 
         Technology = osu018
         Verilog source file : picorv32.v
         Verilog module : picorv32
+        
    **GUI**
  ![](images/DAY1synthesis_statistics_of_picorv32.JPG)
-   **PLACEMENT**
+ 
+ 
+  **Synthesis Run**
+ ![](mages/DAY1synthesis_statistics_of_picorv32.JPG) 
+ 
+   
+   **PLACEMENT_RUN**
  ![](images/PLACEMENT_RUN.png)
  
