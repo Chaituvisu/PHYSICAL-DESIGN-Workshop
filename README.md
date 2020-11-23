@@ -2,7 +2,7 @@
 A very useful and informative workshop, where i have gained hands on experience on physical design tools like opentimer, ngspice , magic and sta. It hepled me to understand the flow of design from RTL file to GDSII on tsmc 180nm technology. From this workshop I learnt about SPEF "IEEE 1481-1999" standard,LEF, DEF, SDC files and their significance in the Design flow. Tools used are NGSPICE, MAGIC LAYOUT tool, YOSYS- logic synthesis, GRAYWOLF- placement, QROUTE- maze routing, OPENSTA- timing analysis and SPEF extractor.
 
 
-**DAY 1** 
+##DAY 1 
     
  a)Description about Fundamentals of PCB and Chip Design.
     
@@ -53,7 +53,7 @@ A very useful and informative workshop, where i have gained hands on experience 
   ![](images/DAY1Create _picorv32.JPG)
   ![](images/DAY1synthesis_statistics_of_picorv32.JPG)
   
-**DAY2**
+##DAY2
         
  Definition of width and height of die, core which depends on standard cell dimensions. 
  Core internally consists of many standard cells placed properly with proper intensity, aspect ratio, utilisation factor
@@ -84,7 +84,7 @@ A very useful and informative workshop, where i have gained hands on experience 
  
  
   **Synthesis Run**
- ![](mages/DAY1synthesis_statistics_of_picorv32.JPG) 
+ ![](images/DAY1synthesis_statistics_of_picorv32.JPG) 
  
    
    **PLACEMENT_RUN**
