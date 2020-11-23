@@ -33,6 +33,7 @@ A very useful and informative workshop, where i have gained hands on experience 
              cd vsdflow
              ./vsdflow spi_slave_design_details.csv
              ls -ltr outdir_spi_slave/
+  ![](images/DAY1spi_output.JPG)
         
        output files will be generated in below folder:
              
@@ -43,4 +44,5 @@ A very useful and informative workshop, where i have gained hands on experience 
              qflow display spi_slave
   
   ![](images/DAY1layout_spi.JPG)
+  
  
