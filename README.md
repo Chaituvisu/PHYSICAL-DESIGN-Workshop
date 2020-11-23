@@ -24,8 +24,23 @@ A very useful and informative workshop, where i have gained hands on experience 
        
     f) Invoked the flow using  below git clone for vsdflow : 
             
-             git clone https://github.com/kunal
+             git clone https://github.com/kunalg123/vsdflow.git
              
  ![](images/1.vsdflow.JPG)
  
+    g) VSDFLOW is scripted for SPI_SLAVE, using below commands spi_slave related files are generated which includes output files also.
+        
+             cd vsdflow
+             ./vsdflow spi_slave_design_details.csv
+             ls -ltr outdir_spi_slave/
+        
+       output files will be generated in below folder:
+             
+             cd outdir_spi_slave
+         
+         For viewing the layout of spi_slave below command is entered in terminal
+             
+             qflow display spi_slave
+  
+  ![](images/DAY 1 layout_spi.JPG)
  
