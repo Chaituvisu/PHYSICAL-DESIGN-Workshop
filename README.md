@@ -22,5 +22,7 @@ A very useful and informative workshop, where i have gained hands on experience 
        eSPICE - For SPICE simulations with schematically capturing the responses and functionality.
        Qflow - It is provided in order to ease the total design process for complete flow of RTL to GDSII 
        
-    f) Invoked the flow using git clone - vsdflow : [git clone https://github.com/kunal]
-    
+    f) Invoked the flow using git clone - vsdflow : 
+            
+            git clone https://github.com/kunal
+   
