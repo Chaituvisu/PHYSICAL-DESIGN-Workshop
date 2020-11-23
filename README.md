@@ -42,5 +42,5 @@ A very useful and informative workshop, where i have gained hands on experience 
              
              qflow display spi_slave
   
-  ![](images/DAY1%20layout_spi.JPG)
+  ![](images/DAY1layout_spi.JPG)
  
